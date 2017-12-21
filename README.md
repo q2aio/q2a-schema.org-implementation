@@ -1,4 +1,3 @@
-==============================
 Question2Answer, simply implements schema.org specifications for the Question and Answer site.
 ==============================
 
