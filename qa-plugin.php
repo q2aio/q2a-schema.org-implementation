@@ -25,9 +25,6 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
 
 qa_register_plugin_layer('qa-layer-changer.php', 'Schema.org implementation');
 
-qa_register_plugin_module('module', 'qa-schema-setup-admin.php', 'qa_schema_impl_admin', 'Q2A Schema.org implementation settings');
-
-
 /*
 	Omit PHP closing tag to help avoid accidental output
 */
