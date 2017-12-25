@@ -24,6 +24,7 @@ Installation
 .. _Question2Answer: http://www.question2answer.org/install.php
 .. _git: http://git-scm.com/
 .. _project page: https://github.com/PublicityPort/q2a-schema.org-implementation
+.. _github: https://github.com/PublicityPort/q2a-schema.org-implementation
 
 ----------
 Report an issue
