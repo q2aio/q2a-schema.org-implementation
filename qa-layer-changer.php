@@ -81,7 +81,6 @@ class qa_html_theme_layer extends qa_html_theme_base
     public function a_list_item($a_item)
 	{
         if($this->template=='question'){
-            $extraclass = @$a_item['classes'].($a_item['hidden'] ? ' qa-a-list-item-hidden' : ($a_item['selected'] ? ' qa-a-list-item-selected' : ''));
             $a_item['tags'] = $a_item['tags']. ' itemscope itemtype="http://schema.org/Answer"';
             $a_item['tags'] = $a_item['tags'] . ($a_item['selected'] ? ' itemprop="acceptedAnswer"' : '');
         }
