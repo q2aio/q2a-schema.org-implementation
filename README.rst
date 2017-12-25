@@ -1,5 +1,5 @@
 ==============================
-Question2Answer, simply implements schema.org specifications for the Question and Answer site.
+This plugin simply implements schema.org specifications for the Question and Answer site.
 ==============================
 
 -----------
