@@ -6,9 +6,10 @@ This plugin simply implements schema.org markup for the Question and Answer site
 Description
 -----------
 This plugin enables **Question2Answer** users to implement below schema.org markup for the Question and Answer site.
-http://schema.org/QAPage
-http://schema.org/Question
-http://schema.org/Answer
+
+  - http://schema.org/QAPage
+  - http://schema.org/Question
+  - http://schema.org/Answer
 
 ------------
 Installation
