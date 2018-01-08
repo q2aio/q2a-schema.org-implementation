@@ -32,7 +32,7 @@ class qa_html_theme_layer extends qa_html_theme_base
                 $this->output('<meta name="keywords" content="'.$this->content['keywords'].'"/>');
             if(strlen($raw['title']))
                 $this->output('<meta name="og:title" itemprop="title" content="'.$raw['title'].'"/>');
-            $this->output('<meta property="og:image" itemprop="image primaryImageOfPage" content="https://storage.googleapis.com/publicityport-bucket/2017/11/767f1981-question2answer-logo-350x40.png" />');
+            $this->output('<meta property="og:image" itemprop="image primaryImageOfPage" content="'.qa_opt('schema_impl_logo_url').'" />');
         }else
             qa_html_theme_base::head_metas();
 		
@@ -60,7 +60,7 @@ class qa_html_theme_layer extends qa_html_theme_base
 	{
         if($this->template=='question'){
             $raw = $q_view['raw'];
-            $this->output('<link itemprop="image" href="https://storage.googleapis.com/publicityport-bucket/2017/11/767f1981-question2answer-logo-350x40.png" />');
+            $this->output('<link itemprop="image" href="'.qa_opt('schema_impl_logo_url').'" />');
             $this->output('<span style="display:none;" itemprop="upvoteCount">');
             $this->output($raw['netvotes']);
             $this->output('</span>');
