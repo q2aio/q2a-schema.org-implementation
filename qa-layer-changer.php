@@ -81,8 +81,11 @@ class qa_html_theme_layer extends qa_html_theme_base
     public function a_list_item($a_item)
 	{
         if($this->template=='question'){
-            $a_item['tags'] = $a_item['tags']. ' itemscope itemtype="http://schema.org/Answer"';
-            $a_item['tags'] = $a_item['tags'] . ($a_item['selected'] ? ' itemprop="acceptedAnswer"' : '');
+            //file_put_contents('log.txt', print_r($a_item['tags'], true));
+            if (strpos($a_item['tags'], 'schema.org') == false){
+                $a_item['tags'] = $a_item['tags']. ' itemscope itemtype="http://schema.org/Answer"';
+                $a_item['tags'] = $a_item['tags'] . ($a_item['selected'] ? ' itemprop="acceptedAnswer"' : '');
+            }
         }
         qa_html_theme_base::a_list_item($a_item);
 	}
