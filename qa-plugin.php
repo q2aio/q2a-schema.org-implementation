@@ -4,7 +4,7 @@
 	Plugin Name: Q2A schema.org implementation
 	Plugin URI: https://github.com/PublicityPort/q2a-schema.org-implementation
 	Plugin Description: Simply implements schema.org specifications for the Question and Answer site.
-	Plugin Version: 1.0.2
+	Plugin Version: 1.0.3
 	Plugin Date: 2014-09-09
 	Plugin Author: Publicity Port
 	Plugin Author URI: https://publicityport.com
