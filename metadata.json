@@ -1,0 +1,13 @@
+{
+    "name": "Q2A schema.org implementation",
+    "uri": "https://github.com/PublicityPort/q2a-schema.org-implementation",
+    "description": "Simply implements schema.org specifications for the Question and Answer site.",
+    "version": "1.0.4",
+    "date": "2018-04-30",
+    "author": "Publicity Port",
+    "author_uri": "https://publicityport.com",
+    "license": "GPLv2",
+    "update_uri": "",
+    "min_q2a": "1.7.5",
+    "load_order": "after_db_init"
+}
