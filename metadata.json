@@ -7,7 +7,7 @@
     "author": "Publicity Port",
     "author_uri": "https://publicityport.com",
     "license": "GPLv2",
-    "update_uri": "",
+    "update_uri": "https://raw.githubusercontent.com/PublicityPort/q2a-schema.org-implementation/master/metadata.json",
     "min_q2a": "1.7.5",
     "load_order": "after_db_init"
 }
